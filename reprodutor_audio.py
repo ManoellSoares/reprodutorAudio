@@ -8,7 +8,7 @@ tela = pygame.display.set_mode((700, 500))
 pygame.display.set_caption("Reprodutor de Música")
 black = (0, 0, 0)
 
-pygame.mixer.music.load('reilacoste.mp3')
+pygame.mixer.music.load('nomeDoAudio.mp3')
 pygame.mixer.music.play()
 pygame.event.wait()
 
